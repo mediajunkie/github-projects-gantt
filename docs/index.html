@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>GitHub Projects Gantt</title>
-</head>
-<body>
-  <h1>GitHub Projects Gantt Placeholder</h1>
-  <p>If you see this, your GitHub Pages is working!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>GitHub Projects Gantt</title>
+    <!-- Frappe Gantt CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/frappe-gantt/dist/frappe-gantt.css"
+    />
+    <style>
+      #gantt {
+        width: 100%;
+        height: 400px;
+        margin-top: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GitHub Projects Gantt</h1>
+    <div id="gantt"></div>
+    <!-- Frappe Gantt JS -->
+    <script src="https://unpkg.com/frappe-gantt/dist/frappe-gantt.min.js"></script>
+    <script>
+      // Sample task data
+      const tasks = [
+        {
+          id: "Task 1",
+          name: "Sample Task",
+          start: "2024-07-01",
+          end: "2024-07-05",
+          progress: 50,
+          dependencies: "",
+          custom_class: "",
+        },
+      ];
+      // Render Gantt chart
+      const gantt = new Gantt("#gantt", tasks, {
+        view_mode: "Week",
+        bar_height: 30,
+        arrow_curve: 5,
+      });
+    </script>
+  </body>
 </html>
