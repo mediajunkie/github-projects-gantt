@@ -2,44 +2,199 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>GitHub Projects Gantt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Projects Gantt Chart</title>
     <!-- Frappe Gantt CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/frappe-gantt/dist/frappe-gantt.css"
     />
     <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f6f8fa;
+      }
+      
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        overflow: hidden;
+      }
+      
+      .header {
+        background: #24292e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      
+      .controls {
+        padding: 20px;
+        border-bottom: 1px solid #e1e4e8;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      
+      .controls button {
+        padding: 6px 12px;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        background: white;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      
+      .controls button:hover {
+        background: #f6f8fa;
+      }
+      
+      .controls button.active {
+        background: #0366d6;
+        color: white;
+        border-color: #0366d6;
+      }
+      
+      .status {
+        padding: 10px 20px;
+        background: #f1f8ff;
+        border-bottom: 1px solid #e1e4e8;
+        font-size: 14px;
+        color: #586069;
+      }
+      
       #gantt {
         width: 100%;
-        height: 400px;
-        margin-top: 2em;
+        min-height: 400px;
+        padding: 20px;
+      }
+      
+      .legend {
+        padding: 20px;
+        border-top: 1px solid #e1e4e8;
+        display: flex;
+        gap: 20px;
+        font-size: 14px;
+      }
+      
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      
+      .legend-color {
+        width: 16px;
+        height: 16px;
+        border-radius: 4px;
+      }
+      
+      /* Custom task colors */
+      .hcd-task {
+        fill: #6f42c1;
+      }
+      
+      .engineering-task {
+        fill: #28a745;
+      }
+      
+      .product-task {
+        fill: #0366d6;
+      }
+      
+      .accessibility-task {
+        fill: #f66a0a;
+      }
+      
+      .content-task {
+        fill: #d73a49;
+      }
+      
+      .general-task {
+        fill: #6a737d;
+      }
+      
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #586069;
+      }
+      
+      .error {
+        background: #ffeaea;
+        color: #d73a49;
+        padding: 20px;
+        border-left: 4px solid #d73a49;
+        margin: 20px;
+        border-radius: 4px;
       }
     </style>
   </head>
   <body>
-    <h1>GitHub Projects Gantt</h1>
-    <div id="gantt"></div>
+    <div class="container">
+      <div class="header">
+        <h1>GitHub Projects Gantt Chart</h1>
+      </div>
+      
+      <div class="controls">
+        <button id="view-day">Day</button>
+        <button id="view-week" class="active">Week</button>
+        <button id="view-month">Month</button>
+        <button id="view-quarter">Quarter</button>
+        <div style="margin-left: auto;">
+          <button id="refresh">Refresh Data</button>
+        </div>
+      </div>
+      
+      <div class="status" id="status">
+        Loading sample data...
+      </div>
+      
+      <div id="gantt-container">
+        <div id="gantt"></div>
+      </div>
+      
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #6f42c1;"></div>
+          <span>HCD</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #28a745;"></div>
+          <span>Engineering</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #0366d6;"></div>
+          <span>Product</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #f66a0a;"></div>
+          <span>Accessibility</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #d73a49;"></div>
+          <span>Content</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #6a737d;"></div>
+          <span>General</span>
+        </div>
+      </div>
+    </div>
+
     <!-- Frappe Gantt JS -->
     <script src="https://unpkg.com/frappe-gantt/dist/frappe-gantt.min.js"></script>
-    <script>
-      // Sample task data
-      const tasks = [
-        {
-          id: "Task 1",
-          name: "Sample Task",
-          start: "2024-07-01",
-          end: "2024-07-05",
-          progress: 50,
-          dependencies: "",
-          custom_class: "",
-        },
-      ];
-      // Render Gantt chart
-      const gantt = new Gantt("#gantt", tasks, {
-        view_mode: "Week",
-        bar_height: 30,
-        arrow_curve: 5,
-      });
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>

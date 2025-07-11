@@ -1,0 +1,35 @@
+{
+  "name": "github-projects-gantt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "node scripts/fetch-projects.js",
+    "serve": "npx serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediajunkie/github-projects-gantt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mediajunkie/github-projects-gantt/issues"
+  },
+  "homepage": "https://github.com/mediajunkie/github-projects-gantt#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  }
+}
