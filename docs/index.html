@@ -139,6 +139,60 @@
         margin: 20px;
         border-radius: 4px;
       }
+      
+      .filters {
+        padding: 20px;
+        border-bottom: 1px solid #e1e4e8;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #f6f8fa;
+      }
+      
+      .filter-group {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      
+      .filter-group label {
+        font-size: 12px;
+        font-weight: 600;
+        color: #586069;
+      }
+      
+      .filter-group select {
+        padding: 4px 8px;
+        border: 1px solid #d1d5da;
+        border-radius: 4px;
+        font-size: 14px;
+        min-width: 120px;
+      }
+      
+      .filters button {
+        padding: 6px 12px;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        background: white;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 16px;
+      }
+      
+      .filters button:hover {
+        background: #f6f8fa;
+      }
+      
+      .filters button#apply-filters {
+        background: #0366d6;
+        color: white;
+        border-color: #0366d6;
+      }
+      
+      .filters button#apply-filters:hover {
+        background: #0256cc;
+      }
     </style>
   </head>
   <body>
@@ -154,7 +208,50 @@
         <button id="view-quarter">Quarter</button>
         <div style="margin-left: auto;">
           <button id="refresh">Refresh Data</button>
+          <button id="clear-cache">Clear Cache</button>
+          <button id="cache-stats">Cache Stats</button>
         </div>
+      </div>
+      
+      <div class="filters">
+        <div class="filter-group">
+          <label for="category-filter">Category:</label>
+          <select id="category-filter">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="status-filter">Status:</label>
+          <select id="status-filter">
+            <option value="">All Status</option>
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="assignee-filter">Assignee:</label>
+          <select id="assignee-filter">
+            <option value="">All Assignees</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sort-by">Sort by:</label>
+          <select id="sort-by">
+            <option value="start">Start Date</option>
+            <option value="end">End Date</option>
+            <option value="name">Name</option>
+            <option value="progress">Progress</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sort-direction">Order:</label>
+          <select id="sort-direction">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+          </select>
+        </div>
+        <button id="apply-filters">Apply Filters</button>
+        <button id="reset-filters">Reset</button>
       </div>
       
       <div class="status" id="status">
@@ -195,6 +292,16 @@
 
     <!-- Frappe Gantt JS -->
     <script src="https://unpkg.com/frappe-gantt/dist/frappe-gantt.min.js"></script>
+    <script src="cache-manager.js"></script>
+    <script>
+      // Ensure Gantt library is loaded before initializing app
+      window.addEventListener('load', () => {
+        if (typeof Gantt === 'undefined') {
+          console.error('Frappe Gantt library failed to load');
+          document.getElementById('gantt').innerHTML = '<div class="error">Error: Frappe Gantt library failed to load from CDN</div>';
+        }
+      });
+    </script>
     <script src="app.js"></script>
   </body>
 </html>
