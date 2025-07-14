@@ -27,6 +27,9 @@ class GitHubGanttApp {
     // Refresh button
     document.getElementById('refresh').addEventListener('click', () => this.loadData());
     
+    // Jump to today button
+    document.getElementById('jump-to-today').addEventListener('click', () => this.jumpToToday());
+    
     // Cache management buttons
     document.getElementById('clear-cache').addEventListener('click', () => this.clearCache());
     document.getElementById('cache-stats').addEventListener('click', () => this.showCacheStats());
@@ -68,7 +71,17 @@ class GitHubGanttApp {
       
       this.tasks = data.tasks || [];
       this.lastUpdated = data.lastUpdated;
-      this.updateStatus(`Loaded ${this.tasks.length} tasks. Last updated: ${this.formatDate(this.lastUpdated)}`);
+      
+      // Debug: Log task date ranges
+      const taskDates = this.tasks.map(t => new Date(t.start)).filter(d => !isNaN(d));
+      if (taskDates.length > 0) {
+        const minDate = new Date(Math.min(...taskDates));
+        const maxDate = new Date(Math.max(...taskDates));
+        console.log(`Task date range: ${minDate.toDateString()} to ${maxDate.toDateString()}`);
+        console.log(`Total tasks with valid dates: ${taskDates.length}`);
+      }
+      
+      this.updateStatus(`Loaded ${this.tasks.length} tasks. Last updated: ${this.formatDate(this.lastUpdated)}. Scroll the chart to see all tasks.`);
       
       this.extractFilterOptions();
       this.populateFilterDropdowns();
@@ -166,6 +179,9 @@ class GitHubGanttApp {
     }
 
     try {
+      // Clear the container before rendering
+      document.getElementById('gantt').innerHTML = '';
+      
       this.gantt = new Gantt('#gantt', tasksToRender, {
         view_mode: this.currentView,
         bar_height: 30,
@@ -175,7 +191,9 @@ class GitHubGanttApp {
         on_click: (task) => this.onTaskClick(task),
         on_date_change: (task, start, end) => this.onDateChange(task, start, end),
         on_progress_change: (task, progress) => this.onProgressChange(task, progress),
-        on_view_change: (mode) => this.onViewChange(mode)
+        on_view_change: (mode) => this.onViewChange(mode),
+        date_format: 'YYYY-MM-DD',
+        language: 'en'
       });
     } catch (error) {
       console.error('Error rendering Gantt chart:', error);
@@ -393,6 +411,45 @@ class GitHubGanttApp {
     
     // Apply filters to reset view
     this.applyFilters();
+  }
+  
+  jumpToToday() {
+    if (!this.gantt) {
+      console.warn('Gantt chart not initialized');
+      return;
+    }
+    
+    try {
+      // Get today's date
+      const today = new Date();
+      
+      // Find the task closest to today
+      let closestTask = null;
+      let closestDistance = Infinity;
+      
+      this.tasks.forEach(task => {
+        if (task.start) {
+          const taskDate = new Date(task.start);
+          const distance = Math.abs(taskDate - today);
+          if (distance < closestDistance) {
+            closestDistance = distance;
+            closestTask = task;
+          }
+        }
+      });
+      
+      if (closestTask) {
+        // Scroll to the closest task
+        const taskElement = document.querySelector(`[data-id="${closestTask.id}"]`);
+        if (taskElement) {
+          taskElement.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+        }
+      }
+      
+      console.log('Jumped to tasks near:', today.toDateString());
+    } catch (error) {
+      console.error('Error jumping to today:', error);
+    }
   }
 }
 
