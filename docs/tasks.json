@@ -1,0 +1,2053 @@
+{
+  "project": {
+    "id": "PVT_kwDOAFK5-84AphQs",
+    "title": "VA Decision Reviews",
+    "lastUpdated": "2025-07-11T22:45:53.837Z"
+  },
+  "tasks": [
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcE_jE",
+      "name": "[Eng] Finish testing in staging for new VA Notify callbacks",
+      "start": "2025-07-11",
+      "end": "2025-07-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113136"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFzy4",
+      "name": "Refine decision tree based on feedback from Board",
+      "start": "2025-07-13",
+      "end": "2025-07-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113192"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbzjzs",
+      "name": "[Eng] 4142 PDF: update date format of PDF date and overflow date",
+      "start": "2025-07-15",
+      "end": "2025-07-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112633"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbjb3Q",
+      "name": "4142 - When privacy act modal is closed focus is lost",
+      "start": "2025-07-17",
+      "end": "2025-07-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112276"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcMIsQ",
+      "name": "[Eng] Investigate unique item evidence problems in Supplemental Claims",
+      "start": "2025-07-19",
+      "end": "2025-07-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113466"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb6o_0",
+      "name": "Review & refine decision tree w/ alignment to AMA doc and paper forms",
+      "start": "2025-07-21",
+      "end": "2025-07-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112894"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFzC0",
+      "name": "Solicit Initial feedback from OAR",
+      "start": "2025-07-23",
+      "end": "2025-07-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113187"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFzYU",
+      "name": "Decision Tree User Stories",
+      "start": "2025-07-25",
+      "end": "2025-07-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113189"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb2-O4",
+      "name": "[Eng] Update phone number handling for 4142 processing and PDF generation",
+      "start": "2025-07-27",
+      "end": "2025-07-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112759"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb2qt8",
+      "name": "[Eng] Update primary phone number screen to support international phone numbers",
+      "start": "2025-07-29",
+      "end": "2025-07-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112738"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb0Pfg",
+      "name": "[Eng] Update Veteran point of contact to use new international phone number component",
+      "start": "2025-07-31",
+      "end": "2025-08-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112688"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb22jY",
+      "name": "[Eng] Update confirmation pages on all 3 DR flows to support international phone numbers",
+      "start": "2025-08-02",
+      "end": "2025-08-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112752"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbDSSA",
+      "name": "[Eng] Enable feature flags for new VA Notify callbacks in production",
+      "start": "2025-08-04",
+      "end": "2025-08-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111015"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbmSUk",
+      "name": "[Eng SPIKE] Initial discovery for enabling Veterans to view DR submission statuses in MyVA",
+      "start": "2025-08-06",
+      "end": "2025-08-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112367"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb2f-o",
+      "name": "Iterate on Onramping Decision Tree with Stakeholders",
+      "start": "2025-08-08",
+      "end": "2025-08-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112722"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbSnv4",
+      "name": "Disability Claim Decision Review: Team Education",
+      "start": "2025-08-10",
+      "end": "2025-08-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111637"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHohg",
+      "name": "0995 - Release authorization alert should trigger on Continue not on checkbox check/uncheck",
+      "start": "2025-08-12",
+      "end": "2025-08-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109303"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbeGhg",
+      "name": "[Eng] Support maintenance window/setting of downtime notifications for 4142 release",
+      "start": "2025-08-14",
+      "end": "2025-08-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112080"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaE3aM",
+      "name": "[FE, SC]: Update 4142 legal content to new design",
+      "start": "2025-08-16",
+      "end": "2025-08-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109178"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbOGvM",
+      "name": "[Eng] Create a banner for the 4142 legalese page to announce new content",
+      "start": "2025-08-18",
+      "end": "2025-08-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111446"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbOGug",
+      "name": "[Eng] Create rake task to update in-progress SC returnUrls",
+      "start": "2025-08-20",
+      "end": "2025-08-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111445"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbJtHk",
+      "name": "[Eng] Update signature field and timestamps on 4142/4142a PDFs",
+      "start": "2025-08-22",
+      "end": "2025-08-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111203"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbDlc8",
+      "name": "[SPIKE: Eng, BE, ZSF] Investigate how best to split out retryable/non-retryable notification failures",
+      "start": "2025-08-24",
+      "end": "2025-08-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111036"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLwgU",
+      "name": "Assist with review of Goal 1 Desk Research",
+      "start": "2025-08-26",
+      "end": "2025-08-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111357"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbicFY",
+      "name": "[Eng] Investigate and fix PDF font issues (in 4142)",
+      "start": "2025-08-28",
+      "end": "2025-08-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112149"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbJXmg",
+      "name": "[Eng] SPIKE: Investigate feasibility of uploading failure emails to eFolder",
+      "start": "2025-08-30",
+      "end": "2025-08-31",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111282"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbOEXQ",
+      "name": "[UX, Content] Design banner for 4142 legalese page to announce new content",
+      "start": "2025-09-01",
+      "end": "2025-09-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111444"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbJPHM",
+      "name": "[Eng, NOD] Determine whether ITFs are created with 10182 is submitted",
+      "start": "2025-09-03",
+      "end": "2025-09-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111266"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbSnXg",
+      "name": "Disability Claim Decision: Review current flow",
+      "start": "2025-09-05",
+      "end": "2025-09-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111636"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbSnCU",
+      "name": "Disability Claim Decision Review: Desk Research",
+      "start": "2025-09-07",
+      "end": "2025-09-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111635"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajZjo",
+      "name": "Product outline",
+      "start": "2025-09-09",
+      "end": "2025-09-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110043"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajTuc",
+      "name": "Collaboration cycle ticket + kickoff scheduling",
+      "start": "2025-09-11",
+      "end": "2025-09-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110034"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajVaA",
+      "name": "DR metrics investigation",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110038"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbaxv0",
+      "name": "Quick wins for Onramp benchmark data",
+      "start": "2025-09-15",
+      "end": "2025-09-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111951"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLw8I",
+      "name": "[PLACEHOLDER] Design support for handling 4142 In Progress Forms",
+      "start": "2025-09-17",
+      "end": "2025-09-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111358"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga8Qe4",
+      "name": "Refine Veteran Journey for Choosing a Decision Review Pathway",
+      "start": "2025-09-19",
+      "end": "2025-09-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110864"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zRM",
+      "name": "[Eng] Staging Review finding: va-checkbox imposter component",
+      "start": "2025-09-21",
+      "end": "2025-09-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102160"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbGYRs",
+      "name": "[Eng SPIKE] Determine how to handle any in progress Supplemental Claims to make sure users see new authorization screen",
+      "start": "2025-09-23",
+      "end": "2025-09-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111147"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaWwkw",
+      "name": "[TASK:] User Story Mapping workshop: Goal 1: Veterans know which decision review option to choose (Metric/Alignment)",
+      "start": "2025-09-25",
+      "end": "2025-09-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109726"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga46d0",
+      "name": "[TASK:] Lean Canvas: Goal 1: Veterans know which decision review option to choose (Metric/Alignment)",
+      "start": "2025-09-27",
+      "end": "2025-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110702"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHWKs",
+      "name": "Design iterations to Authorization screen in DR-SC 4142",
+      "start": "2025-09-29",
+      "end": "2025-09-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109264"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaWbhg",
+      "name": "[Eng SPIKE] Investigate cause of Supplemental Claim: Unprocessable Entity errors",
+      "start": "2025-10-01",
+      "end": "2025-10-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109702"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZn1lA",
+      "name": "21-4142 Accessibility audit",
+      "start": "2025-10-03",
+      "end": "2025-10-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108141"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZTEZI",
+      "name": "Decision Reviews Team Onboarding TEMPLATE",
+      "start": "2025-10-05",
+      "end": "2025-10-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107408"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZQYrE",
+      "name": "[SPIKE] Eng: Initial Discovery on 4142 Form Usage in Decision Reviews Submission Flow",
+      "start": "2025-10-07",
+      "end": "2025-10-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107791"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZgAFg",
+      "name": "[SPIKE] UX: Initial Discovery on 4142 Form Usage in Decision Reviews Flow",
+      "start": "2025-10-09",
+      "end": "2025-10-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107851"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYkfeQ",
+      "name": "[Decision Reviews] Update 4142 form in 0995 to latest version",
+      "start": "2025-10-11",
+      "end": "2025-10-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105771"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgWvG14",
+      "name": "Prepare Decision Onramp Research Strategy",
+      "start": "2025-10-13",
+      "end": "2025-10-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/101836"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgX4dww",
+      "name": "Upstream service map",
+      "start": "2025-10-15",
+      "end": "2025-10-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/104241"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYS0Ek",
+      "name": "[SPIKE] Automate Contact Center Notification",
+      "start": "2025-10-17",
+      "end": "2025-10-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105217"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYStv8",
+      "name": "[SPIKE] VA Notify Callback integration",
+      "start": "2025-10-19",
+      "end": "2025-10-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105199"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajw6w",
+      "name": "[Eng] Investigate why VANotify callbacks aren't enabled in production",
+      "start": "2025-10-21",
+      "end": "2025-10-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110085"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYol5w",
+      "name": "va-additional-info & va-alert-expandable has a link with role=button to expand content ",
+      "start": "2025-10-23",
+      "end": "2025-10-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3657"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgXx6pE",
+      "name": "BE Engine Misc: Transition final non-module controller",
+      "start": "2025-10-25",
+      "end": "2025-10-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/104037"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYKfT4",
+      "name": "Switch to V3 version of Multiple Upload Component",
+      "start": "2025-10-27",
+      "end": "2025-10-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/104926"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgUxgX4",
+      "name": "SPIKE: In progress form submission notification",
+      "start": "2025-10-29",
+      "end": "2025-10-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/97046"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW0Tco",
+      "name": "Investigate Flaky test caused by pdf helper",
+      "start": "2025-10-31",
+      "end": "2025-11-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102045"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgUxgII",
+      "name": "[epic] Modularize backend",
+      "start": "2025-11-02",
+      "end": "2025-11-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/97045"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVuDAM",
+      "name": "[epic]  Onramp to DR Selection (Goal 1)",
+      "start": "2025-11-04",
+      "end": "2025-11-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/99189"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTnJ8A",
+      "name": "[epic] SC | 2024 Form Updates",
+      "start": "2025-11-06",
+      "end": "2025-11-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/82219"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTnJ9s",
+      "name": "[epic] DR | Downloadable Copy of Submission",
+      "start": "2025-11-08",
+      "end": "2025-11-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/71358"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTnJ6w",
+      "name": "[epic] Zero Silent Failures | SC, HLR, NOD",
+      "start": "2025-11-10",
+      "end": "2025-11-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/70293"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTnJ7s",
+      "name": "[epic] HLR | 2024 Form Updates",
+      "start": "2025-11-12",
+      "end": "2025-11-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/82220"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTnJ1s",
+      "name": "[epic] DR | Remediate failed submissions",
+      "start": "2025-11-14",
+      "end": "2025-11-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/80241"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTq4U0",
+      "name": "Global | Update libraries in react-jsonschema-form",
+      "start": "2025-11-16",
+      "end": "2025-11-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/94474"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgXviV4",
+      "name": "SC | Update pages to use array builder list loop",
+      "start": "2025-11-18",
+      "end": "2025-11-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/103986"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbU-Tw",
+      "name": "[Eng] Investigate `isRequired` console errors in Supplemental Claims flow",
+      "start": "2025-11-20",
+      "end": "2025-11-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111747"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTv4ow",
+      "name": "DR | Reduce blank PDF errors ",
+      "start": "2025-11-22",
+      "end": "2025-11-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/94736"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgUxcnE",
+      "name": "DR - Investigate editing from review & submit",
+      "start": "2025-11-24",
+      "end": "2025-11-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/97031"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUCnw",
+      "name": "Staging Review finding: Wording of homelessness question not consistent with other forms that ask for housing status",
+      "start": "2025-11-26",
+      "end": "2025-11-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95176"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUCqk",
+      "name": "Staging Review finding: Checkbox on decision disagreement page alters # of characters allowed in free text",
+      "start": "2025-11-28",
+      "end": "2025-11-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95177"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUC8A",
+      "name": "Staging Review finding: Step 1 in \"follow the steps to get started\" contains overly long sentences",
+      "start": "2025-11-30",
+      "end": "2025-12-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95181"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUC_8",
+      "name": "Staging Review finding: Overly long sentence in \"why isn't my issue listed here?\" dropdown in step 2 ",
+      "start": "2025-12-02",
+      "end": "2025-12-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95183"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUDL4",
+      "name": "Staging Review finding: Unclear if/then implication in step 3 \"informal conference\" ",
+      "start": "2025-12-04",
+      "end": "2025-12-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95185"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgVUDV8",
+      "name": "Staging Review finding: Sentence length and confusing structure in withdrawal policy",
+      "start": "2025-12-06",
+      "end": "2025-12-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/95194"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgWGpis",
+      "name": "DR submission process diagram",
+      "start": "2025-12-08",
+      "end": "2025-12-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/100038"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zGM",
+      "name": "QA Standards - Benefits Decision Review - Supplemental Claims",
+      "start": "2025-12-10",
+      "end": "2025-12-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102146"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zKM",
+      "name": "Staging Review finding: Update editable prefill UI",
+      "start": "2025-12-12",
+      "end": "2025-12-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102156"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zLY",
+      "name": "Staging Review finding: Update the multiple responses pattern for new an relevant evidence",
+      "start": "2025-12-14",
+      "end": "2025-12-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102157"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zR8",
+      "name": "Staging Review finding: va-file-input imposter component",
+      "start": "2025-12-16",
+      "end": "2025-12-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102161"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zSg",
+      "name": "Staging Review finding: va-button-pair imposter component",
+      "start": "2025-12-18",
+      "end": "2025-12-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102162"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgW2zTM",
+      "name": "Staging Review finding: Homelessness yes/no question not aligned with housing status question guidance",
+      "start": "2025-12-20",
+      "end": "2025-12-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/102164"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYlFg8",
+      "name": "BE: Add PDF download endpoint for SC",
+      "start": "2025-12-22",
+      "end": "2025-12-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105840"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYlF40",
+      "name": "BE: Add PDF download endpoint for NOD",
+      "start": "2025-12-24",
+      "end": "2025-12-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105841"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYlF8k",
+      "name": "BE: Add PDF download endpoint for HLR",
+      "start": "2025-12-26",
+      "end": "2025-12-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105842"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYriOs",
+      "name": "SC | Remove new form feature toggle",
+      "start": "2025-12-28",
+      "end": "2025-12-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105976"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgTpxZ4",
+      "name": "Global | Replace react-scroll library with browser scroll",
+      "start": "2025-12-30",
+      "end": "2025-12-31",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/94332"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYrv58",
+      "name": "[Decision Reviews - Multiple forms]: Page title in forms needs to be more specific and informative",
+      "start": "2026-01-01",
+      "end": "2026-01-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/105941"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgYvhuI",
+      "name": "SC | Form 4142 PDFs missing street address and incorrect country code",
+      "start": "2026-01-03",
+      "end": "2026-01-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/106197"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgY4cS0",
+      "name": "[Higher Level Review]: Some elements are not announcing correctly in JAWS",
+      "start": "2026-01-05",
+      "end": "2026-01-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/106044"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZahxY",
+      "name": "Decision Review Team Onboarding: Kyra",
+      "start": "2026-01-07",
+      "end": "2026-01-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107578"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZhphs",
+      "name": "Decision Review Team Onboarding: Lauren",
+      "start": "2025-04-09",
+      "end": "2025-04-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107925"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZfqKw",
+      "name": "Decision Review Team Onboarding: Pam",
+      "start": "2026-01-09",
+      "end": "2026-01-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107809"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZbVmg",
+      "name": "Decision Review Team Onboarding: Tracy Tran",
+      "start": "2026-01-11",
+      "end": "2026-01-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107676"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZgCCA",
+      "name": "4142 Form - Initial A11y Review",
+      "start": "2026-01-13",
+      "end": "2026-01-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107854"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZgC9E",
+      "name": "Decision Review Team Onboarding: Jerry Sea",
+      "start": "2026-01-15",
+      "end": "2026-01-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107858"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgXeLZo",
+      "name": "Separate Sentry and Rails Logging Behavior",
+      "start": "2026-01-17",
+      "end": "2026-01-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/103363"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZncJ0",
+      "name": "Decision Review Team Onboarding: Grace",
+      "start": "2026-01-19",
+      "end": "2026-01-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108101"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZoCJw",
+      "name": "Decision Reviews Team Onboarding: Randi",
+      "start": "2026-01-21",
+      "end": "2026-01-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108165"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZz3TA",
+      "name": "[Higher Level Review]: Visual presentation is used to convey the relationship between values and field names",
+      "start": "2026-01-23",
+      "end": "2026-01-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/106016"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZz3sY",
+      "name": "[a11y-defect-1] [WICKED]: Review answers page has multiple focus defects and error messaging issues",
+      "start": "2026-01-25",
+      "end": "2026-01-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/61549"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZz3wc",
+      "name": "[Documentation] When transitioning to simplified form header pattern, there must be only one `h1` on the page (WIP)",
+      "start": "2026-01-27",
+      "end": "2026-01-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/54014"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZz3zY",
+      "name": "[SC and HR]: Multiple errors triggered at once on a page aren't all announced",
+      "start": "2026-01-29",
+      "end": "2026-01-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/103724"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZ0LCg",
+      "name": "[SC FE]: Treatment dates are prefilled but cause a validation error",
+      "start": "2026-01-31",
+      "end": "2026-02-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108506"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZ8RWk",
+      "name": "Display Decision Review form and evidence submission status in My VA dashboard",
+      "start": "2026-02-02",
+      "end": "2026-02-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108906"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgZ9m0A",
+      "name": "Investigate what issues are shown to Veterans in VA Form 10182",
+      "start": "2026-02-04",
+      "end": "2026-02-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/108927"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaBhWo",
+      "name": "[epic] Update DR engineering onboarding documentation",
+      "start": "2026-02-06",
+      "end": "2026-02-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109000"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaB8QY",
+      "name": "0995 - 508 audit  defect 5 WCAG 1.3.1 fake headings in the evidence summary page",
+      "start": "2026-02-08",
+      "end": "2026-02-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109038"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaEhVI",
+      "name": "0995 - Convert imposter component links to `va-link`",
+      "start": "2026-02-10",
+      "end": "2026-02-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109138"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaEh3U",
+      "name": "Decision Reviews: Expose full VA Form 21‑4142 authorization details in downloadable Supplemental Claim PDF",
+      "start": "2026-02-12",
+      "end": "2026-02-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109139"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaEmqU",
+      "name": "0995 - 508 audit defect 8 - Fix the VaAccordion expand/collapse all button aria-label",
+      "start": "2026-02-14",
+      "end": "2026-02-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109146"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHGCU",
+      "name": "0995 - 508 audit defect 7",
+      "start": "2026-02-16",
+      "end": "2026-02-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109234"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHb60",
+      "name": "UX Coordination/Investigation: Are providers from outside the US admissible in the 4142?",
+      "start": "2026-02-18",
+      "end": "2026-02-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109278"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHdY4",
+      "name": "UX Coordination/Investigation: How do Veterans revoke 4142 authorization to disclose other parties?",
+      "start": "2026-02-20",
+      "end": "2026-02-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109283"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHeXI",
+      "name": "UX Coordination/Investigation: Contact VBA to discuss sources, authorizations, and limitations",
+      "start": "2026-02-22",
+      "end": "2026-02-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109285"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHgbw",
+      "name": "[Eng] Update Supplemental Claims sequence diagrams",
+      "start": "2026-02-24",
+      "end": "2026-02-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109281"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHnyI",
+      "name": "UX Add Source of Records examples and Scope to the 4142 digital form",
+      "start": "2026-02-26",
+      "end": "2026-02-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109299"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHoKY",
+      "name": "0995 - Release authorization alert does not announce as an alert for screen readers",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109301"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaHpA0",
+      "name": "0995 - VoiceOver/NVDA announces headings multiple times",
+      "start": "2026-03-02",
+      "end": "2026-03-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109306"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaMtwo",
+      "name": "[Eng] Update most common production monitoring documentation",
+      "start": "2026-03-04",
+      "end": "2026-03-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109476"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajpIw",
+      "name": "[SC, FE]: Isolate batched components into separate files",
+      "start": "2026-03-06",
+      "end": "2026-03-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110072"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajqnY",
+      "name": "[Shared, FE]: Isolate batched components into separate files",
+      "start": "2026-03-08",
+      "end": "2026-03-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110075"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaj7VU",
+      "name": "[SC, BE] Add tests and support for special character encoding on generated PDFs",
+      "start": "2026-03-10",
+      "end": "2026-03-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110095"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgapa18",
+      "name": "0995 - Add a11y annotations to the 4142 Figmas with new legalese",
+      "start": "2026-03-12",
+      "end": "2026-03-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110288"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgasfh8",
+      "name": "[SC, FE] Determine whether test files with \"Old\" label are still needed",
+      "start": "2026-03-14",
+      "end": "2026-03-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110444"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgavT1o",
+      "name": "[UX] Finalize Figma Design Legalese for 4142",
+      "start": "2026-03-16",
+      "end": "2026-03-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110524"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgavVm8",
+      "name": "[UX] Revisit Limit Consent text box placement for 4142 Legalese",
+      "start": "2026-03-18",
+      "end": "2026-03-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110527"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga2LjM",
+      "name": "Upload failure email notifications for decision review forms to the Veteran's eFolder",
+      "start": "2026-03-20",
+      "end": "2026-03-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110581"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga2MEc",
+      "name": "[epic] Understand the feasibility of showing decision review form submission status on the MyVa dashboard (Goal 4)",
+      "start": "2026-03-22",
+      "end": "2026-03-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110583"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga2Md4",
+      "name": "[epic] Avoid sending erroneous failure emails to Veterans via better categorization of downstream errors (recoverable/unrecoverable)",
+      "start": "2026-03-24",
+      "end": "2026-03-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110584"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga5egU",
+      "name": "[UX] Create Product Outline: Decision Reviews in GitHub README",
+      "start": "2026-03-26",
+      "end": "2026-03-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110750"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga7bpA",
+      "name": "[HLR, FE]: Rework tests for contestable issues page",
+      "start": "2026-03-28",
+      "end": "2026-03-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110705"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga7cws",
+      "name": "[SC, FE]: Address new gaps in unit test coverage and add E2E tests to cover (EvidenceVaRecords)",
+      "start": "2026-03-30",
+      "end": "2026-03-31",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110781"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbDQRI",
+      "name": "[Design + Eng, BE] SPIKE: Evaluate new ZSF notification requirements",
+      "start": "2026-04-01",
+      "end": "2026-04-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111011"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLpnM",
+      "name": "[Eng] Investigate impact of VA Profile team supporting international phone numbers on our forms",
+      "start": "2026-04-03",
+      "end": "2026-04-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111346"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbapu0",
+      "name": "[Eng] Release 4142 updates (includes testing and handling in-progress forms)",
+      "start": "2026-04-05",
+      "end": "2026-04-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111942"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbXZ1M",
+      "name": "[Eng] Update FE tests to help enable upgrade to Node 22",
+      "start": "2026-04-07",
+      "end": "2026-04-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111799"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLr0I",
+      "name": "[Eng] Update less common production monitoring documentation",
+      "start": "2026-04-09",
+      "end": "2026-04-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111350"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbL1GU",
+      "name": "[UX] Update language for 4142 providers date ranges",
+      "start": "2026-04-11",
+      "end": "2026-04-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111362"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgaE5rM",
+      "name": "[BE, SC]: Refactor 526 & 0995's 4142 form processors and update shared template PDF to 2024 version ",
+      "start": "2026-04-13",
+      "end": "2026-04-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/109183"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbbdkI",
+      "name": "[Eng] Fix bug preventing issues from being populated on 2024 version of 4142 PDF (staging finding)",
+      "start": "2026-04-15",
+      "end": "2026-04-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111991"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbXxis",
+      "name": "Create 4142 Legalese Update release plan",
+      "start": "2026-04-17",
+      "end": "2026-04-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111843"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLnGs",
+      "name": "Destiny's Child sprint tickets",
+      "start": "2025-06-05",
+      "end": "2025-06-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111342"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbaxq0",
+      "name": "GA data audit (for Onramp)",
+      "start": "2026-04-19",
+      "end": "2026-04-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111949"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbbUDk",
+      "name": "Collaboration cycle kickoff and planning",
+      "start": "2026-04-21",
+      "end": "2026-04-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111979"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajT8w",
+      "name": "Roadmap view tied to backlog",
+      "start": "2026-04-23",
+      "end": "2026-04-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110036"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbLrd0",
+      "name": "Product operations tasks",
+      "start": "2026-04-25",
+      "end": "2026-04-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111344"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbOKfM",
+      "name": "[Eng] Determine whether we need unit tests marked \"Old\" in 995 folder",
+      "start": "2026-04-27",
+      "end": "2026-04-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111448"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbSAfA",
+      "name": "[UX] Evaluate implementing VADS signature pattern on 0995",
+      "start": "2026-04-29",
+      "end": "2026-04-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111572"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbS4js",
+      "name": "Draft initial Product Outline for Goal 1",
+      "start": "2026-05-01",
+      "end": "2026-05-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111670"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbUcLw",
+      "name": "[Eng] SC & HLR: Duplicate GA events firing for radio buttons on start screen",
+      "start": "2026-05-03",
+      "end": "2026-05-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111690"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbVHR0",
+      "name": "Decision Reviews maintenance and monitoring",
+      "start": "2026-05-05",
+      "end": "2026-05-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111766"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbaUNk",
+      "name": "[Eng] Minor 4142 Processor Improvements",
+      "start": "2026-05-07",
+      "end": "2026-05-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111927"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbbczk",
+      "name": "[Eng] REVISIT: SEPT 25th? Remove rake task for handling in-progress SC forms for 4142 update post-release",
+      "start": "2026-05-09",
+      "end": "2026-05-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/111990"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbdiY4",
+      "name": "Draft User-Facing Questions for Decision Review User Journey",
+      "start": "2026-05-11",
+      "end": "2026-05-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112020"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbja4E",
+      "name": "4142 - A11y issues with Action needed text on step 3 of 5",
+      "start": "2026-05-13",
+      "end": "2026-05-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112272"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb9TtU",
+      "name": "Date Component Mockups",
+      "start": "2026-05-15",
+      "end": "2026-05-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112941"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFyhs",
+      "name": "Summary screen endpoint options for all DR pathways",
+      "start": "2026-05-17",
+      "end": "2026-05-18",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113186"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbduNg",
+      "name": "4142 updates - Accessibility testing",
+      "start": "2026-05-19",
+      "end": "2026-05-20",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112036"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbivm0",
+      "name": "[Eng SPIKE] Determine whether we should add maintenance windows for Lighthouse maintenance",
+      "start": "2026-05-21",
+      "end": "2026-05-22",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112191"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbi0Zc",
+      "name": "[Eng] Remove 4142 FE feature flipper and associated functionality",
+      "start": "2026-05-23",
+      "end": "2026-05-24",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112201"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbi4SA",
+      "name": "Refine the product backlog",
+      "start": "2026-05-25",
+      "end": "2026-05-26",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112207"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbjaU4",
+      "name": "4142 - Headings are very similar on new Authorization legalese",
+      "start": "2026-05-27",
+      "end": "2026-05-28",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112269"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbje0c",
+      "name": "4142 - Privacy act statement modal close button invisible on Safari",
+      "start": "2026-05-29",
+      "end": "2026-05-30",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112277"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbmEFA",
+      "name": "[Eng SPIKE] Determine whether there are any impostor components remaining in any apps",
+      "start": "2026-05-31",
+      "end": "2026-06-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112355"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbmOp4",
+      "name": "[Eng] Update data missing alert to use correct application name",
+      "start": "2026-06-02",
+      "end": "2026-06-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112361"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb9qQ0",
+      "name": "[Eng] Refactor unit tests to remove Enzyme",
+      "start": "2026-06-04",
+      "end": "2026-06-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112986"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgbpVSM",
+      "name": "[Eng] Investigate blank PDFs submitted to eFolder/VBMS from last year",
+      "start": "2026-06-06",
+      "end": "2026-06-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112490"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb0S8g",
+      "name": "International phone number support: update inputs, display and formatting across all DR forms",
+      "start": "2026-06-08",
+      "end": "2026-06-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112689"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb25SM",
+      "name": "[Eng] Enable Privacy modal to close when clicked outside",
+      "start": "2026-06-10",
+      "end": "2026-06-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112754"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgajxIc",
+      "name": "[Eng SPIKE] Investigate schema mismatches",
+      "start": "2026-06-12",
+      "end": "2026-06-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110086"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb6oK0",
+      "name": "[Eng] Update accredited representative phone number on HLR to support international phone numbers",
+      "start": "2026-06-14",
+      "end": "2026-06-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/112892"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszga8BFI",
+      "name": "[Eng, BE] Review and update DataDog logs to use UserAccount id instead of uuid",
+      "start": "2026-06-16",
+      "end": "2026-06-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/110848"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb983I",
+      "name": "[Eng] Change 4142 PDF signature font to cursive",
+      "start": "2026-06-18",
+      "end": "2026-06-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113015"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgb_5qM",
+      "name": "Goal 1 (Onramp) decision tree",
+      "start": "2026-06-20",
+      "end": "2026-06-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113044"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFzQM",
+      "name": "Identify resources/information to provide Veterans at each point in decision tree",
+      "start": "2026-06-22",
+      "end": "2026-06-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113188"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcFzgs",
+      "name": "Refine decision tree (and content) based on initial feedback from stakeholders",
+      "start": "2026-06-24",
+      "end": "2026-06-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113190"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcGCKM",
+      "name": "[Eng SPIKE] Investigate 4142 Schema usage",
+      "start": "2026-06-26",
+      "end": "2026-06-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113217"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcGGYY",
+      "name": "[Eng] Investigate showScNewForm and its utility",
+      "start": "2026-06-28",
+      "end": "2026-06-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113224"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcL7CE",
+      "name": "[Eng] Investigate and fix PDF missing @ symbol on overflow page (in 4142)",
+      "start": "2026-06-30",
+      "end": "2026-07-01",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113448"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcMKWU",
+      "name": "[Eng] Explore cleaning up vets-json-schema folders",
+      "start": "2026-07-02",
+      "end": "2026-07-03",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113470"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcMOX8",
+      "name": "[Eng] Identify whether schemas are still in use",
+      "start": "2026-07-04",
+      "end": "2026-07-05",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113477"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcMQ0o",
+      "name": "[Eng] Investigate timezone data for user profile",
+      "start": "2026-07-06",
+      "end": "2026-07-07",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113481"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcOLsg",
+      "name": "[UX] Update evidence review screen after VA record modifications",
+      "start": "2026-07-08",
+      "end": "2026-07-09",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113508"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcOP3s",
+      "name": "[Content] Consider consistent approach to homelessness question",
+      "start": "2026-07-10",
+      "end": "2026-07-11",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113510"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcOUKU",
+      "name": "[Eng] Implement max character error messaging on HLR rep fields",
+      "start": "2026-07-12",
+      "end": "2026-07-13",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113513"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcOU-Q",
+      "name": "[Eng] Implement max character error messaging on SC homeless POC name field",
+      "start": "2026-07-14",
+      "end": "2026-07-15",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113514"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcOpNE",
+      "name": "Move 4142 draft screens to Production \"Section 3 of 5\" in Figma",
+      "start": "2026-07-16",
+      "end": "2026-07-17",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113528"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcO53c",
+      "name": "Date Component Mockup - Content Review",
+      "start": "2026-07-18",
+      "end": "2026-07-19",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113548"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcVABo",
+      "name": "[Eng] Update schemas and any related logic to handle optional area codes",
+      "start": "2026-07-20",
+      "end": "2026-07-21",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113660"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcVf4Q",
+      "name": "[Eng] Require hearingTypePreference field for NOD in BE schemas",
+      "start": "2026-07-22",
+      "end": "2026-07-23",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113701"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcVg6Y",
+      "name": "[Eng] Investigate removal of socOptIn value for NOD BE validation",
+      "start": "2026-07-24",
+      "end": "2026-07-25",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113705"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcVjrU",
+      "name": "[Eng] Investigate usage of vets-json-schema in FE DR flows",
+      "start": "2026-07-26",
+      "end": "2026-07-27",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113706"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcXr-s",
+      "name": "[Eng] Update HLR schema to match Lighthouse for countryCodeISO2",
+      "start": "2026-07-28",
+      "end": "2026-07-29",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113746"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcX-Js",
+      "name": "20-0996 | International Phone Number Support",
+      "start": "2026-07-30",
+      "end": "2026-07-31",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113561"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcX-Kw",
+      "name": "20-0995 | International Phone Number Support",
+      "start": "2026-08-01",
+      "end": "2026-08-02",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113559"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcX-Lc",
+      "name": "21-4142 | International Phone Number Support",
+      "start": "2026-08-03",
+      "end": "2026-08-04",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113557"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcavBI",
+      "name": "[Eng SPIKE] Investigate impact of BEP/BGS Cloud Migration downtime 7/11-7/13",
+      "start": "2026-08-05",
+      "end": "2026-08-06",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113847"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcbKJY",
+      "name": "[Eng] Refine NOD evidence upload traffic anomaly monitor",
+      "start": "2026-08-07",
+      "end": "2026-08-08",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113896"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcbM3A",
+      "name": "[A11y]: 0995 - 4142 Updates - A11y auditing",
+      "start": "2026-08-09",
+      "end": "2026-08-10",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113899"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcbNxM",
+      "name": "[A11y]: Product - Feature - Request",
+      "start": "2026-08-11",
+      "end": "2026-08-12",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/113902"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcf27Q",
+      "name": "[Content] Onramping Tool: Feature - Request",
+      "start": "2026-08-13",
+      "end": "2026-08-14",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "hcd-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/114104"
+    },
+    {
+      "id": "PVTI_lADOAFK5-84AphQszgcgdnU",
+      "name": "[Eng] Remove homelessPointOfContactPhone key from FE SC payload if it's empty",
+      "start": "2026-08-15",
+      "end": "2026-08-16",
+      "progress": 0,
+      "dependencies": "",
+      "custom_class": "general-task",
+      "github_url": "https://github.com/department-of-veterans-affairs/va.gov-team/issues/114156"
+    }
+  ],
+  "criticalPath": [
+    "PVTI_lADOAFK5-84AphQszgcE_jE"
+  ],
+  "stats": {
+    "totalTasks": 203,
+    "completedTasks": 77,
+    "totalStoryPoints": 112,
+    "completedStoryPoints": 83,
+    "categories": {
+      "General": 165,
+      "HCD": 38
+    }
+  },
+  "lastUpdated": "2025-07-11T22:45:53.838Z"
+}
