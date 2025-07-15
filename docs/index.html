@@ -170,6 +170,39 @@
         fill: #6a737d !important;
       }
 
+      /* Ensure headers are visible in all view modes */
+      .gantt .grid-header {
+        display: block !important;
+        visibility: visible !important;
+      }
+
+      .gantt .grid-header .grid-row {
+        display: flex !important;
+        visibility: visible !important;
+      }
+
+      .gantt .grid-header .grid-cell {
+        display: block !important;
+        visibility: visible !important;
+        border-right: 1px solid #e1e4e8;
+        padding: 8px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #586069;
+        background: #f6f8fa;
+      }
+
+      /* Ensure grid is visible in Quarter view */
+      .gantt .grid {
+        display: block !important;
+        visibility: visible !important;
+      }
+
+      .gantt .grid .grid-row {
+        display: flex !important;
+        visibility: visible !important;
+      }
+
       .loading {
         text-align: center;
         padding: 40px;

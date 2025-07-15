@@ -59,9 +59,10 @@ class GitHubGanttApp {
       .addEventListener("click", () => this.resetFilters());
 
     // Test colors button
-    document
-      .getElementById("test-colors")
-      .addEventListener("click", () => this.applyColorsManually());
+    document.getElementById("test-colors").addEventListener("click", () => {
+      console.log("Test Colors button clicked!");
+      this.applyColorsManually();
+    });
   }
 
   changeView(viewMode) {
@@ -199,6 +200,17 @@ class GitHubGanttApp {
         custom_class: "engineering-task",
         github_url: "https://github.com/example/repo/issues/6",
       },
+      // Add a general task to test the color mapping
+      {
+        id: "documentation",
+        name: "Update Documentation",
+        start: this.formatDateString(this.addDays(startDate, 5)),
+        end: this.formatDateString(this.addDays(startDate, 12)),
+        progress: 20,
+        dependencies: "",
+        custom_class: "general-task",
+        github_url: "https://github.com/example/repo/issues/7",
+      },
     ];
   }
 
@@ -304,6 +316,16 @@ class GitHubGanttApp {
       tasksToRender.slice(0, 5).map((t) => t.custom_class)
     );
 
+    // Debug: Log all tasks and their classes
+    console.log("All tasks and their classes:");
+    tasksToRender.forEach((task, index) => {
+      console.log(
+        `${index}: ${task.name} - ${task.custom_class} - ${
+          colorMap[task.custom_class] || "#6a737d"
+        }`
+      );
+    });
+
     // Multiple attempts to apply colors with different timing
     const applyColors = () => {
       // Method 1: Target bar-wrapper elements
@@ -326,7 +348,7 @@ class GitHubGanttApp {
           barWrapper.classList.add(task.custom_class || "general-task");
 
           console.log(
-            `Applied ${color} to task: ${task.name} (${task.custom_class})`
+            `Applied ${color} to task: ${task.name} (${task.custom_class}) - Color: ${color}`
           );
         }
       });
@@ -664,8 +686,11 @@ class GitHubGanttApp {
 
     // Filter tasks
     this.filteredTasks = this.tasks.filter((task) => {
-      // Category filter
-      if (categoryFilter && task.custom_class) {
+      // Category filter - only apply if a category is selected (not "All Categories")
+      if (categoryFilter && categoryFilter.trim() !== "") {
+        if (!task.custom_class) {
+          return false; // No category assigned, filter out
+        }
         const taskCategory = task.custom_class
           .replace("-task", "")
           .replace("-", " ");
