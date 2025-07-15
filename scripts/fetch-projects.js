@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 
+import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+
+// Load environment variables from .env file
+dotenv.config();
 
 import GitHubRepository from '../src/infrastructure/GitHubRepository.js';
 import DependencyParser from '../src/domain/DependencyParser.js';

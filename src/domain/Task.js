@@ -25,11 +25,19 @@ export default class Task {
   }
 
   getCategoryFromLabels() {
-    const categoryPriority = ['HCD', 'Engineering', 'Product', 'Accessibility', 'Content'];
+    const categoryPriority = [
+      { name: 'HCD', labels: ['HCD'] },
+      { name: 'Engineering', labels: ['Engineering', 'engineering'] },
+      { name: 'Product', labels: ['Product', 'product'] },
+      { name: 'Accessibility', labels: ['Accessibility', 'accessibility'] },
+      { name: 'Content', labels: ['Content', 'content'] }
+    ];
     
     for (const category of categoryPriority) {
-      if (this.labels.includes(category)) {
-        return category;
+      for (const labelVariant of category.labels) {
+        if (this.labels.includes(labelVariant)) {
+          return category.name;
+        }
       }
     }
     
